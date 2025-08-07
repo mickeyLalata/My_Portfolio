@@ -1,14 +1,20 @@
-import './App.css'
+import './app.css';
+import './Home.tsx';
+import Home from './Home.tsx';
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-      </div>
+      <nav className='mt-5'>
+        <div className='grid grid-cols-4 w-75 justify-self-center gap-5'>
+          <button className='cursor-pointer'>Home</button>
+          <button className='cursor-pointer'>Projects</button>
+          <button className='cursor-pointer'>About</button>
+          <button className='cursor-pointer'>Resume</button>
+        </div>
+        <Home />
+      </nav>
     </>
   )
 }
