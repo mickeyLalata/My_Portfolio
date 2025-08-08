@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Contact from './Contact';
 import './Home.css';
+import pauloImg from './img/paulo.png';
 
 function Home() {
   const [showContact, setShowContact] = useState(false);
@@ -54,7 +55,7 @@ function Home() {
             loaded ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
           }`}
             >
-              <img src="./src/img/paulo.png" alt="Paulo" className='translate-x-225 -translate-y-65 h-70 w-70 rounded-full'/>
+              <img src={pauloImg} alt="Paulo" className='translate-x-225 -translate-y-65 h-70 w-70 rounded-full'/>
             </div>
             <div>
               <div className='translate-x-217 -translate-y-143 h-85 w-85 rounded-full border-solid border-1'></div>
