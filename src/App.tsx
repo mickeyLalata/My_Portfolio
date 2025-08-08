@@ -1,20 +1,34 @@
-import './app.css';
-import './Home.tsx';
+import './Home.css';
 import Home from './Home.tsx';
+import Projects from './Projects.tsx';
+import About from './About.tsx';
 
 function App() {
 
   return (
     <>
-      <nav className='mt-5'>
-        <div className='grid grid-cols-4 w-75 justify-self-center gap-5'>
-          <button className='cursor-pointer'>Home</button>
-          <button className='cursor-pointer'>Projects</button>
-          <button className='cursor-pointer'>About</button>
-          <button className='cursor-pointer'>Resume</button>
+    <div className='sm:overflow-x-hidden'>
+      <nav className='relative flex items-center m-5 w-full sm:flex-col'>
+        <div className='absolute left-0'>
+          <p>Mickey Paulo S. Lalata</p>
         </div>
-        <Home />
+
+        <div className='grid grid-cols-4 gap-5 w-fit mx-auto'>
+          <a href='#home' className='cursor-pointer'>Home</a>
+          <a href='#projects' className='cursor-pointer'>Projects</a>
+          <a href='#about' className='cursor-pointer'>About Me</a>
+        </div>
       </nav>
+      <div id='home' className='h-screen pt-24'>
+        <Home />
+      </div>
+      <div id='projects' className='h-screen pt-24 bg-gray-100'>
+        <Projects />
+      </div>
+      <div id='about' className='h-screen pt-24 bg-gray-200'>
+        <About />
+      </div>
+    </div>
     </>
   )
 }
