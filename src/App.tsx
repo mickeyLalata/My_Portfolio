@@ -13,7 +13,7 @@ function App() {
           <p>Mickey Paulo S. Lalata</p>
         </div>
 
-        <div className='grid grid-cols-4 gap-5 w-fit mx-auto'>
+        <div className='grid grid-cols-3 gap-5 w-[300px] mx-auto text-center'>
           <a href='#home' className='cursor-pointer font-mono'>Home</a>
           <a href='#projects' className='cursor-pointer font-mono'>Projects</a>
           <a href='#about' className='cursor-pointer font-mono'>About Me</a>
