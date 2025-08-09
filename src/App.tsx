@@ -2,6 +2,7 @@ import './Home.css';
 import Home from './Home.tsx';
 import Projects from './Projects.tsx';
 import About from './About.tsx';
+import resumePaulo from './files/MickeyPauloLalata-Resume.pdf';
 
 function App() {
 
@@ -13,10 +14,11 @@ function App() {
           <p>Mickey Paulo S. Lalata</p>
         </div>
 
-        <div className='grid grid-cols-3 gap-5 w-[300px] mx-auto text-center'>
+        <div className='grid grid-cols-4 gap-5 w-[300px] mx-auto text-center'>
           <a href='#home' className='cursor-pointer font-mono'>Home</a>
           <a href='#projects' className='cursor-pointer font-mono'>Projects</a>
-          <a href='#about' className='cursor-pointer font-mono'>About Me</a>
+          <a href='#about' className='cursor-pointer font-mono'>About</a>
+          <a href={resumePaulo} download="MickeyPauloLalata-Resume.pdf" className='cursor-pointer font-mono'>Resume</a>
         </div>
       </nav>
       <div id='home' className='h-screen pt-24'>
