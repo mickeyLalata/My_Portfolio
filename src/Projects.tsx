@@ -61,7 +61,7 @@ function Projects() {
             </div>
         </div>
         <br />
-        <p className='ml-8'> 
+        <p className='ml-8 mt-20'> 
             I also have projects finished under{" "}
             <a href="https://www.theodinproject.com/" target='_blank' className='underline hover:text-blue-600'>odinproject.com</a> 
             , if you want to see it visit my published{" "}
