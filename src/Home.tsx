@@ -4,12 +4,14 @@ import './Home.css';
 import pauloImg from './img/paulo.png';
 
 function Home() {
+    /* For Get in touch behavior */
   const [showContact, setShowContact] = useState(false);
   const [loaded, setLoaded] = useState(false);
 
       useEffect(() => {
         setLoaded(true);
       }, []);
+
   return (
     <>
         <div

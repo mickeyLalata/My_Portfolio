@@ -22,10 +22,10 @@ function App() {
       <div id='home' className='h-screen pt-24'>
         <Home />
       </div>
-      <div id='projects' className='h-screen pt-24 bg-gray-100'>
+      <div id='projects' className='min-h-screen pt-24'>
         <Projects />
       </div>
-      <div id='about' className='h-screen pt-24 bg-gray-200'>
+      <div id='about' className='min-h-screen pt-24'>
         <About />
       </div>
     </div>
