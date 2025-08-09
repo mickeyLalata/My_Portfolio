@@ -20,12 +20,12 @@ function Home() {
           }`}
         >
           <div className='flex w-120 flex-col translate-x-30 translate-y-30 relative'>
-            <h1 className='text-m text-left'>Hello, I'm Mickey Paulo</h1>
+            <h1 className='text-m text-left font-mono'>Hello, I'm Mickey Paulo</h1>
             <p className='text-center text-5xl font-bold text-left'>
               <span className='text-red-500'>Front</span>end Developer
             </p>
             <br />
-            <p>
+            <p className='font-mono'>
               I'm a Frontend developer based in the Philippines, I can help you <br />
               build a website or web application that suits your needs.
             </p>
@@ -34,7 +34,7 @@ function Home() {
               <div className='relative inline-block'>
                 <button
                   onClick={() => setShowContact(!showContact)}
-                  className='bg-red-300 text-white w-40 rounded-2xl shadow-lg cursor-pointer'
+                  className='bg-red-300 text-white w-40 rounded-2xl shadow-lg cursor-pointer font-mono'
                 >
                   Get in Touch
                 </button>
@@ -49,7 +49,7 @@ function Home() {
                 </div>
               </div>
               <button onClick={() => window.open('https://github.com/mickeyLalata', '_blank')}
-              className='bg-gray-300 w-40 rounded-2xl shadow-lg cursor-pointer'>
+              className='bg-gray-300 w-40 rounded-2xl shadow-lg cursor-pointer font-mono'>
                 GitHub
               </button>
             </div>

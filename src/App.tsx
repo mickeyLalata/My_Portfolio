@@ -14,9 +14,9 @@ function App() {
         </div>
 
         <div className='grid grid-cols-4 gap-5 w-fit mx-auto'>
-          <a href='#home' className='cursor-pointer'>Home</a>
-          <a href='#projects' className='cursor-pointer'>Projects</a>
-          <a href='#about' className='cursor-pointer'>About Me</a>
+          <a href='#home' className='cursor-pointer font-mono'>Home</a>
+          <a href='#projects' className='cursor-pointer font-mono'>Projects</a>
+          <a href='#about' className='cursor-pointer font-mono'>About Me</a>
         </div>
       </nav>
       <div id='home' className='h-screen pt-24'>
