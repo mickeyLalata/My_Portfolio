@@ -19,7 +19,7 @@ function Home() {
             loaded ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
           }`}
         >
-          <div className='relative flex flex-col md:w-120 md:translate-x-30 md:translate-y-30'>
+          <div className='relative flex flex-col items-center w-full md:w-120 md:translate-x-30 md:translate-y-30'>
             <h1 className='text-m text-center font-mono lg:text-left'>Hello, I'm Mickey Paulo</h1>
             <p className='text-center text-5xl font-bold text-center lg:text-left'>
               <span className='text-red-500'>Front</span>end Developer
@@ -57,13 +57,13 @@ function Home() {
             loaded ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
           }`}
             >
-              <div className='inline-block p-5 rounded-full border border-solid border-gray-500 mx-auto'>
+              <div className='inline-block p-5 rounded-full border border-solid border-gray-500 mx-auto mt-10
+                  lg:translate-x-205 lg:-translate-y-75 lg:mt-0'>
                 <img 
                   src={pauloImg} 
                   alt="Paulo" 
-                  className='flex h-70 w-70 rounded-full
-                  border border-solid border-2 justify-center
-                  lg:translate-x-225 lg:-translate-y-75'/>
+                  className='h-70 w-70 rounded-full
+                  border border-solid border-2'/>
                 </div>
               
             </div>
