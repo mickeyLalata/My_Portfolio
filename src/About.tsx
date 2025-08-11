@@ -28,7 +28,7 @@ function About() {
             >
                 <h1 className='text-7xl font-serif mb-10 ml-15'>
                 About{" "}<span className='text-red-500'>Me</span></h1>
-                <h2 className='text-lg font-mono mb-15  
+                <h2 className='text-lg font-mono mb-15 ml-5 mr-5
                 text-center
                 lg:ml-25 lg:border-l-8 lg:border-red-500 pl-5'>I love to develop not just beautiful but also functional and helpful websites or web application, 
                 that's why I always give my all <br />
