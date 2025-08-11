@@ -8,11 +8,11 @@ function App() {
 
   return (
     <>
-    <div className='sm:overflow-x-hidden'>
-      <nav className='relative flex items-center m-5 w-full sm:flex-col'>
-        <div className='absolute left-0'>
-          <p>Mickey Paulo S. Lalata</p>
-        </div>
+    <div className='overflow-x-hidden lg:overflow-x-visible'>
+      <nav className='relative flex flex-col justify-center m-5 w-full mx-auto lg:flex-row '>
+      <div className="lg:absolute lg:left-0 lg:top-0">
+        <p className="text-center mb-4 md:mb-0">Mickey Paulo S. Lalata</p>
+      </div>
 
         <div className='grid grid-cols-4 gap-5 w-[300px] mx-auto text-center'>
           <a href='#home' className='cursor-pointer font-mono'>Home</a>

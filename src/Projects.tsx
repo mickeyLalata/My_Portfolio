@@ -26,11 +26,12 @@ function ProjectCard({ img, alt, title }: { img: string; alt: string; title: str
   return (
     <div
       ref={ref}
-      className={`border border-gray-100 rounded-2xl shadow-xl cursor-pointer w-100 h-140 hover:scale-105 transition-all duration-1000 ${
+      className={`border border-gray-100 rounded-2xl shadow-xl cursor-pointer w-80 h-110 lg:w-100 lg:h-140 hover:scale-105 active:scale-105 transition-all duration-1000 ${
         visible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
       }`}
     >
-      <img src={img} alt={alt} className="w-80 h-80 mx-auto mt-6" />
+      <img src={img} alt={alt} className="w-70 h-70 mx-auto mt-6
+      lg:w-80 lg:h-80" />
       <p className="text-center mt-4 font-semibold">{title}</p>
     </div>
   );
@@ -41,8 +42,8 @@ function Projects() {
     <>
         <h1 className='text-7xl font-serif mb-15 ml-15'>
             <span className='text-red-500'>My</span> Projects</h1>
-        <div className="flex justify-center">
-            <div className="flex flex-col-3 gap-8">
+        <div className="flex w-full justify-center">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <ProjectCard 
                     img={gameBacklog}  
                     alt="Game Backlog Tracker" 
