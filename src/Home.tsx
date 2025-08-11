@@ -26,7 +26,7 @@ function Home() {
             </p>
             <br />
             <p className='font-mono text-center lg:text-left'>
-              I'm a Frontend developer based in the Philippines, I can help you <br />
+              I'm a Frontend developer based in the Philippines,<br className='lg:hidden' /> I can help you <br />
               build a website or web application that suits your needs.
             </p>
             <br />
@@ -41,7 +41,7 @@ function Home() {
 
                 <div
                   className={`absolute flex flex-col items-start transform transition-all duration-300 origin-top-left ${
-                    showContact ? 'scale-100 opacity-100' : 'scale-0 opacity-0 pointer-events-none'
+                    showContact ? 'scale-100 opacity-100 bg-white' : 'scale-0 opacity-0 pointer-events-none'
                   } bg-gray-00 p-4 rounded shadow z-10`}
                   style={{ top: '40px', left: '0%' }}
                 >
@@ -57,16 +57,15 @@ function Home() {
             loaded ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
           }`}
             >
-              <img 
-                src={pauloImg} 
-                alt="Paulo" 
-                className='h-70 w-70 rounded-full translate-x-17 translate-y-15
-                lg:translate-x-225 lg:-translate-y-65'/>
-            </div>
-            <div>
-              <div className='h-85 w-85 rounded-full border-solid border-1 
-              translate-x-9.5 -translate-y-63
-              lg:translate-x-217 lg:-translate-y-143'></div>
+              <div className='inline-block p-5 rounded-full border border-solid border-gray-500 mx-auto'>
+                <img 
+                  src={pauloImg} 
+                  alt="Paulo" 
+                  className='flex h-70 w-70 rounded-full
+                  border border-solid border-2 justify-center
+                  lg:translate-x-225 lg:-translate-y-75'/>
+                </div>
+              
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ function Contact() {
           href='https://www.facebook.com/mickey.paulo.lalata.830254'
           target='_blank'
           rel='noopener noreferrer'
-          className='underline hover:text-blue-600'
+          className='underline hover:text-blue-600 active:text-blue-600'
         >
             Facebook
         </a>
@@ -28,28 +28,28 @@ function Contact() {
           href='https://www.linkedin.com/in/mickey-paulo-lalata/'
           target='_blank'
           rel='noopener noreferrer'
-          className='underline hover:text-blue-600'
+          className='underline hover:text-blue-600 active:text-blue-600'
         >
             LinkedIn   
         </a>
         <a 
           href="#" 
           onClick={(e) => handleClick(e, link)} 
-          className='underline hover:text-blue-600'
+          className='underline hover:text-blue-600 active:text-blue-600' 
         >
             mckyl1108@gmail.com
         </a>
         <a 
           href="#" 
           onClick={(e) => handleClick(e, globe)} 
-          className='underline hover:text-blue-600'
+          className='underline hover:text-blue-600 active:text-blue-600'
         >
             09456518127
         </a>
         <a 
           href="#" 
           onClick={(e) => handleClick(e, dito)} 
-          className='underline hover:text-blue-600'
+          className='underline hover:text-blue-600 active:text-blue-600'
         >
             09945603502
         </a>
