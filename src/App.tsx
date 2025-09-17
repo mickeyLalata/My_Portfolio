@@ -2,7 +2,7 @@ import './Home.css';
 import Home from './Home.tsx';
 import Projects from './Projects.tsx';
 import About from './About.tsx';
-import resumePaulo from './files/MickeyPauloLalata-Resume.pdf';
+import resumePaulo from './files/Mickey-Paulo-Lalata-Resume.pdf';
 
 function App() {
 
