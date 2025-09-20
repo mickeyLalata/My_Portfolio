@@ -2,7 +2,7 @@ import './Home.css';
 import Home from './Home.tsx';
 import Projects from './Projects.tsx';
 import About from './About.tsx';
-import resumePaulo from './files/Resume_Lalata.pdf';
+import resumePaulo from './files/Resume_Front_End_Lalata.pdf';
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
           <a href='#home' className='cursor-pointer font-mono'>Home</a>
           <a href='#projects' className='cursor-pointer font-mono'>Projects</a>
           <a href='#about' className='cursor-pointer font-mono'>About</a>
-          <a href={resumePaulo} download="Resume_Lalata.pdf" className='cursor-pointer font-mono'>Resume</a>
+          <a href={resumePaulo} download="Resume_Front_End_Lalata.pdf" className='cursor-pointer font-mono'>Resume</a>
         </div>
       </nav>
       <div id='home' className='h-screen pt-24'>
